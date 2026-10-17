@@ -1,6 +1,6 @@
 # Safe but Unverified: Audit Starvation and Availability in AI Services with Delayed Feedback
 
-This repository contains the code and data for the article *Safe but Unverified: Audit Starvation and Availability in AI Services with Delayed Feedback* (R. Zayoud, H. Elmannai, H. Hamam). It reproduces every experiment in the article.
+This repository contains the code and data for the article *Safe but Unverified: Audit Starvation and Availability in AI Services with Delayed Feedback* (H. Hamam). It reproduces every experiment in the article.
 
 ## What the code shows
 
