@@ -22,6 +22,8 @@ All data are synthetic. No external download is required.
 | `Code/dual_ledger_results.json` | Per-run results of the dual-ledger experiment |
 | `Code/validate_dual_ledger.py` | Independent replay: checks both invariants on every request, matches the stored metrics, and follows every accepted output to completion |
 | `Code/validation_results.json` | Validation output, including a hash of the result file |
+| `Code/edf_only_ablation.py` | Deadline-only ablation: the same deadline-feasibility test without the exposure ledger (180 runs) |
+| `Code/edf_only_results.json` | Per-run results of the deadline-only ablation |
 | `Code/draw_framework.py` | Generates the framework overview figure |
 | `Figures/` | Figures used in the article |
 
@@ -32,6 +34,7 @@ pip install -r requirements.txt
 cd Code
 python dual_ledger_sim.py dual_ledger_results.json     # dual-ledger experiment
 python validate_dual_ledger.py validation_results.json # independent validation
+python edf_only_ablation.py edf_only_results.json     # deadline-only ablation
 ```
 
 Run the notebook in `Supplementary/` to reproduce the admission and scheduling studies. The reference environment is Python 3.9.6 with NumPy 2.0.2.
