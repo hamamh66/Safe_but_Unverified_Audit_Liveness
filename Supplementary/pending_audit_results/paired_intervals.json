@@ -1,0 +1,30 @@
+[
+  {
+    "delay": 1,
+    "mean_difference": 0.0,
+    "median_difference": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+  },
+  {
+    "delay": 20,
+    "mean_difference": 0.0,
+    "median_difference": 0.0,
+    "lo": 0.0,
+    "hi": 0.0
+  },
+  {
+    "delay": 100,
+    "mean_difference": 0.24729999999999996,
+    "median_difference": 0.24833333333333332,
+    "lo": 0.24123333333333333,
+    "hi": 0.25286694444444446
+  },
+  {
+    "delay": 400,
+    "mean_difference": 0.01558888888888889,
+    "median_difference": 0.01633333333333334,
+    "lo": 0.01407777777777778,
+    "hi": 0.016977777777777776
+  }
+]

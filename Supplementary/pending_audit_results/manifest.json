@@ -1,0 +1,29 @@
+{
+  "config": {
+    "n": 3000,
+    "change": 1500,
+    "train_n": 1800,
+    "seeds": 30,
+    "epsilon": 0.1,
+    "initial_allowance": 20,
+    "confidence_threshold": 0.8,
+    "delays": [
+      1,
+      20,
+      100,
+      400
+    ],
+    "scenarios": [
+      "benign",
+      "shift_independent",
+      "shift_error_delay",
+      "shift_missing_errors"
+    ]
+  },
+  "python": "3.9.6",
+  "numpy": "2.0.2",
+  "data_type": "synthetic logistic classification; no external dataset",
+  "stream_seed0_sha256": "2aef10762da52c8f1a4bd2bfec2dbeba11b6800b2d9df5c59133a253d6a514c8",
+  "guarantee": "cumulative actual errors <= epsilon*accepted + B; not pure epsilon risk",
+  "inference": "bootstrap intervals quantify seed variability only"
+}

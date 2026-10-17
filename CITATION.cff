@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Safe but Unverified: Audit Starvation and Availability in AI Services with Delayed Feedback"
+authors:
+  - family-names: Zayoud
+    given-names: Rahma
+  - family-names: Elmannai
+    given-names: Hela
+  - family-names: Hamam
+    given-names: Habib
+    orcid: "https://orcid.org/0000-0002-5320-1012"
+year: 2026
+repository-code: "https://github.com/hamamh66/Safe_but_Unverified_Audit_Liveness"
+license: MIT
